@@ -1,0 +1,365 @@
+{
+  "flights": [
+    {
+      "flight_number": "LO 0279",
+      "operated_by": "LOT Polish Airlines",
+      "departure": {
+        "airport": "Dubai (DXB)",
+        "time": "03:50",
+        "date": "2025-05-01"
+      },
+      "arrival": {
+        "airport": "London (LHR)",
+        "time": "17:20",
+        "date": "2025-05-01"
+      },
+      "duration": "16h 30min",
+      "connections": [
+        {
+          "airport": "Warsaw",
+          "flight_number": "FZ 1835",
+          "aircraft": "B737 MAX 8"
+        },
+        {
+          "flight_number": "LO 0279",
+          "aircraft": "B737 MAX 8"
+        }
+      ],
+      "cabin_classes": {
+        "economy": {
+          "price": 2500,
+          "currency": "AED",
+          "available": true,
+          "fare_details": {
+            "hand_baggage": "7 kg",
+            "checked_baggage": "20 kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Standard seat",
+            "rebooking": "Penalties apply",
+            "cancellation": "Penalties apply",
+            "skywards_miles": "More info"
+          }
+        },
+        "premium_economy": {
+          "price": 4000,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "8kg",
+            "checked_baggage": "25kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Wider recliner seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible with fee",
+            "cancellation": "Partial refund"
+          }
+        },
+        "business": {
+          "price": 6800,
+          "currency": "AED",
+          "available": true,
+          "fare_details": {
+            "hand_baggage": "15 kg",
+            "checked_baggage": "40 kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Flatbed seat",
+            "rebooking": "Flexible",
+            "cancellation": "Refundable",
+            "skywards_miles": "More info"
+          }
+        },
+        "first_class": {
+          "price": 11000,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "15kg",
+            "checked_baggage": "40kg",
+            "meal": "Gourmet dining",
+            "seat_selection": "Priority selection",
+            "seat_type": "Private suite"
+          },
+          "restrictions": {
+            "rebooking": "No fee",
+            "cancellation": "Fully refundable"
+          }
+        }
+      }
+    },
+    {
+      "flight_number": "JU 0210",
+      "operated_by": "AirSERBIA",
+      "departure": {
+        "airport": "Dubai (DXB)",
+        "time": "18:55",
+        "date": "2025-05-01"
+      },
+      "arrival": {
+        "airport": "London (LHR)",
+        "time": "12:30",
+        "date": "2025-05-02"
+      },
+      "duration": "20h 35min",
+      "connections": [
+        {
+          "airport": "Belgrade",
+          "flight_number": "FZ 1749",
+          "aircraft": "B737 MAX 8"
+        },
+        {
+          "flight_number": "JU 0210",
+          "aircraft": "A319-100"
+        }
+      ],
+      "cabin_classes": {
+        "economy": {
+          "price": 2725,
+          "currency": "AED",
+          "available": true
+        },
+        "premium_economy": {
+          "price": 4225,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "8kg",
+            "checked_baggage": "25kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Wider recliner seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible with fee",
+            "cancellation": "Partial refund"
+          }
+        },
+        "business": {
+          "price": 7025,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "10kg",
+            "checked_baggage": "30kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Flatbed seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible",
+            "cancellation": "Refundable"
+          }
+        },
+        "first_class": {
+          "price": 11595,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "15kg",
+            "checked_baggage": "40kg",
+            "meal": "Gourmet dining",
+            "seat_selection": "Priority selection",
+            "seat_type": "Private suite"
+          },
+          "restrictions": {
+            "rebooking": "No fee",
+            "cancellation": "Fully refundable"
+          }
+        }
+      }
+    },
+    {
+      "flight_number": "LO 0285",
+      "operated_by": "LOT Polish Airlines",
+      "departure": {
+        "airport": "Dubai (DXB)",
+        "time": "03:50",
+        "date": "2025-05-01"
+      },
+      "arrival": {
+        "airport": "London (LHR)",
+        "time": "22:00",
+        "date": "2025-05-01"
+      },
+      "duration": "21h 10min",
+      "connections": [
+        {
+          "airport": "Warsaw",
+          "flight_number": "FZ 1835",
+          "aircraft": "B737 MAX 8"
+        },
+        {
+          "flight_number": "LO 0285",
+          "aircraft": "B737 MAX 8"
+        }
+      ],
+      "cabin_classes": {
+        "economy": {
+          "price": 2500,
+          "currency": "AED",
+          "available": true
+        },
+        "premium_economy": {
+          "price": 4000,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "8kg",
+            "checked_baggage": "25kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Wider recliner seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible with fee",
+            "cancellation": "Partial refund"
+          }
+        },
+        "business": {
+          "price": 6800,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "10kg",
+            "checked_baggage": "30kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Flatbed seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible",
+            "cancellation": "Refundable"
+          }
+        },
+        "first_class": {
+          "price": 11000,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "15kg",
+            "checked_baggage": "40kg",
+            "meal": "Gourmet dining",
+            "seat_selection": "Priority selection",
+            "seat_type": "Private suite"
+          },
+          "restrictions": {
+            "rebooking": "No fee",
+            "cancellation": "Fully refundable"
+          }
+        }
+      }
+    },
+    {
+      "flight_number": "LO 0281",
+      "operated_by": "LOT Polish Airlines",
+      "departure": {
+        "airport": "Dubai (DXB)",
+        "time": "15:00",
+        "date": "2025-05-01"
+      },
+      "arrival": {
+        "airport": "London (LHR)",
+        "time": "09:20",
+        "date": "2025-05-02"
+      },
+      "duration": "21h 20min",
+      "connections": [
+        {
+          "airport": "Warsaw",
+          "flight_number": "FZ 1839",
+          "aircraft": "B737 MAX 8"
+        },
+        {
+          "flight_number": "LO 0281",
+          "aircraft": "B737 MAX 8"
+        }
+      ],
+      "cabin_classes": {
+        "economy": {
+          "price": 2030,
+          "currency": "AED",
+          "available": true
+        },
+        "premium_economy": {
+          "price": 3530,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "8kg",
+            "checked_baggage": "25kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Wider recliner seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible with fee",
+            "cancellation": "Partial refund"
+          }
+        },
+        "business": {
+          "price": 6330,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "10kg",
+            "checked_baggage": "30kg",
+            "meal": true,
+            "seat_selection": true,
+            "seat_type": "Flatbed seat"
+          },
+          "restrictions": {
+            "rebooking": "Flexible",
+            "cancellation": "Refundable"
+          }
+        },
+        "first_class": {
+          "price": 10530,
+          "currency": "AED",
+          "included": {
+            "hand_baggage": "15kg",
+            "checked_baggage": "40kg",
+            "meal": "Gourmet dining",
+            "seat_selection": "Priority selection",
+            "seat_type": "Private suite"
+          },
+          "restrictions": {
+            "rebooking": "No fee",
+            "cancellation": "Fully refundable"
+          }
+        }
+      }
+    },
+    {
+      "flight_number": "FZ 1735",
+      "operated_by": "flydubai",
+      "departure": {
+        "airport": "Dubai (DXB)",
+        "time": "22:55",
+        "date": "2025-05-01"
+      },
+      "arrival": {
+        "airport": "London (LHR)",
+        "time": "17:40",
+        "date": "2025-05-02"
+      },
+      "duration": "21h 45min",
+      "connections": [
+        {
+          "airport": "Warsaw",
+          "flight_number": "FZ 1735",
+          "aircraft": "B737 MAX 9"
+        },
+        {
+          "flight_number": "KC 0963",
+          "aircraft": "undefined"
+        }
+      ],
+      "cabin_classes": {
+        "economy": {
+          "price": null,
+          "currency": "AED",
+          "available": false,
+          "sold_out": true
+        },
+        "business": {
+          "price": 11595,
+          "currency": "AED",
+          "available": true
+        }
+      }
+    }
+  ]
+} 
