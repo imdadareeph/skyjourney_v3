@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 interface Flight {
   flight_number: string;
@@ -113,6 +114,7 @@ const FlightResults: React.FC<FlightResultsProps> = ({
 
   return (
     <div className="flight-results relative">
+      <SpeedInsights />
       {/* Currency and Lowest Fare Sections */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto">

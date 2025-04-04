@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, Users, ChevronDown, Search } from 'lucide-react';
 import { airports, Airport } from '../config/airport-codes';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 type TripType = 'round_trip' | 'one_way' | 'multi_city';
 
@@ -130,6 +131,7 @@ const FlightSearch: React.FC = () => {
 
   return (
     <div className="bg-white rounded-lg shadow-xl p-6">
+      <SpeedInsights />
       <div className="flex items-center space-x-4 mb-6">
         <button
           type="button"
