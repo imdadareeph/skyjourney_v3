@@ -29,4 +29,4 @@ const FlightResultsPage: React.FC = () => {
   );
 };
 
-export default FlightResultsPage; 
+export default FlightResultsPage;
